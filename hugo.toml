@@ -1,4 +1,35 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://thebenswift.com/'
 languageCode = 'en-us'
 title = 'Ben Swift Blog'
 theme = "papermod"
+[menu]
+  [[menu.main]]
+    identifier = "categories"
+    name = "categories"
+    url = "/categories/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "tags"
+    url = "/tags/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "example"
+    name = "example.org"
+    url = "https://example.org"
+    weight = 30
+    
+[params]
+  [params.homeInfoParams]
+    Title = "Hi there wave"
+    Content = "Can be Info, links, about..."
+
+  [[params.socialIcons]]
+    name = "<platform>"
+    url = "<link>"
+
+  [[params.socialIcons]]
+    name = "<platform 2>"
+    url = "<link2>"
