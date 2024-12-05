@@ -1,4 +1,4 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Ben Swift Blog'
-theme = "hugo-theme-stack"
+theme = "papermod"
