@@ -1,6 +1,6 @@
 baseURL = 'https://thebenswift.com/'
 languageCode = 'en-us'
-title = 'Ben Swift Blog'
+title = 'ben swift - 班傑明'
 theme = "papermod"
 [menu]
   [[menu.main]]
